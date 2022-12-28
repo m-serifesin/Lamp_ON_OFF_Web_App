@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lamp ON & OFF Application</title>
+
+    <style>
+        a {
+            background-color: green;
+            color: #fff;
+            text-decoration: none;
+            font-family: Arial;
+            font-size: 20px;
+            padding: 10px 40px;
+            /*buton içi boşluk */
+            margin: 40px;
+        }
+
+        * {
+            background-color: beige;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div>
+        <center>
+            <br><br>
+
+            <a href="#" onclick="document.getElementById('lamp').src='lamba_acik.jpg' ">ON</a>
+
+            <a href="#" onclick="document.getElementById('lamp').src='lamba_kapali.jpg' ">OFF</a>
+
+            <br><br> <br><br>
+
+            <img id="lamp" src="/lamba_kapali.jpg">
+
+        </center>
+
+    </div>
+
+</body>
+
+</html>
